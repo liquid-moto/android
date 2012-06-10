@@ -7,6 +7,18 @@
   <remote  name="github"
            fetch="git://github.com/LiquidSmoothROMs/"
            review="review.liquidsmooth.org" />
+           
+  <remote name="moto"
+          fetch="git://github.com/liquid-moto/" />
+          
+  <remote name="gummy"
+          fetch="git://github.com/teamgummy" />
+          
+  <remote name="cm9"
+          fetch="git://github.com/CM9-D2G/" />
+
+  <remote name="mm"
+        fetch="git://github.com/MotoMagic/" />
 
   <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
@@ -150,7 +162,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="ics" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="ics" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="moto" revision="ics" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="github" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="github" revision="ics" />
@@ -164,14 +176,11 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="ics" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="ics" />
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="ics" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
   <project path="android" name="android" remote="github" revision="ics" />
@@ -240,4 +249,19 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="ics" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="ics" />
+  
+  <!--changes -->
+  <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="cm9" revision="ics" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="gummy" revision="ics" /> 
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9" revision="ics" />
+  <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" /> 
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
+  
+  <!-- might need this, not sure yet   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9-d2g" revision="ics" /> -->
 </manifest>
