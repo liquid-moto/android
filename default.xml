@@ -256,11 +256,11 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="gummy" revision="ics" /> 
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9" revision="ics" />
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" /> 
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics" />
   <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
-  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="moto" revision="ics" />
   <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
-  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="moto" revision="ics" />
   <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
   
   <!-- might need this, not sure yet   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9-d2g" revision="ics" /> -->
