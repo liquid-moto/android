@@ -14,6 +14,9 @@
   <remote name="gummy"
           fetch="git://github.com/teamgummy" />
           
+  <remote name="gh"
+          fetch="git://github.com/" />
+          
   <remote name="cm9"
           fetch="git://github.com/CM9-D2G/" />
           
@@ -160,7 +163,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="ics" />
+  <project path="external/wpa_supplicant_6" name="CyanogenDefy/android_external_wpa_supplicant_6" remote="gh" revision="ics" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
