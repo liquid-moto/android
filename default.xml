@@ -259,6 +259,7 @@
   <!--changes -->
   <project path="device/motorola/common" name="android_device_moto_hijack" remote="mm" revision="ics" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="cm9" revision="ics" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="gummy" revision="ics" /> 
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9" revision="ics" />
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" /> 
