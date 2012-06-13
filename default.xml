@@ -237,7 +237,7 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="android_sdk" remote="github" revision="ics" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="ics" />
-  <project path="system/core" name="android_system_core" remote="github" revision="ics" />
+  <project path="system/core" name="android_system_core" remote="cm9" revision="ics" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="github" revision="ics" />
