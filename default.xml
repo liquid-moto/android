@@ -117,7 +117,7 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/llvm" name="android_external_llvm" remote="github" revision="ics" />
+  <project path="external/llvm" name="android_external_llvm" remote="cm" revision="ics" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
@@ -147,7 +147,7 @@
   <project path="external/sonivox" name="android_external_sonivox" remote="github" revision="ics" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="android_external_sqlite" remote="github" revision="ics" />
-  <project path="external/srec" name="android_external_srec" remote="github" revision="ics" />
+  <project path="external/srec" name="android_external_srec" remote="cm" revision="ics" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="android_external_stlport" remote="github" revision="ics" />
   <project path="external/strace" name="platform/external/strace" />
