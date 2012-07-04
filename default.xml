@@ -194,7 +194,6 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="ics" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="github" revision="ics" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="ics" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="github" revision="ics" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics" />
   <project path="ndk" name="platform/ndk" />
