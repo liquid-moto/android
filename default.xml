@@ -28,6 +28,7 @@
   <default revision="refs/tags/android-4.0.4_r2.1"
                    remote="aosp"
                    sync-j="4" />
+                   
   <project path="build" name="android_build" remote="github" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -255,11 +256,9 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9" revision="ics" />
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics" />
-  <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="moto" revision="ics" />
-  <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="moto" revision="ics" />
-  <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="cm9"
   <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
  
 </manifest>
