@@ -157,7 +157,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" revision="ics" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" revision="ics" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="moto" revision="master" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="ics" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="ics" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
