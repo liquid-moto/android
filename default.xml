@@ -83,7 +83,7 @@
   <project path="external/gtest" name="android_external_gtest" remote="cm" revision="ics" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
-  <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="gh" revision="ics" />
+  <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="android_external_icu4c" remote="cm" revision="ics" />
   <project path="external/iproute2" name="platform/external/iproute2" />
@@ -158,7 +158,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cm" revision="ics" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="cm" revision="ics" />
-  <project path="external/wpa_supplicant_6" name="tpruvot/android_external_wpa_supplicant_6" remote="gh" revision="ics" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="ics" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="ics" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
@@ -186,6 +186,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="android_libcore" remote="cm" revision="ics" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="ics" />
   <project path="packages/apps/AppWidgetPicker" name="packages_apps_AppWidgetPicker" remote="gummy" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="ics" />
@@ -198,11 +199,10 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="ics" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="ics" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="ics" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="moto" revision="master" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="cm" revision="ics" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="ics" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -211,6 +211,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="liq" revision="ics" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm9" revision="ics" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" revision="ics" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="moto" revision="master" />
