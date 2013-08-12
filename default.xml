@@ -2,34 +2,34 @@
 <manifest>
   <remote name="aosp"
                   fetch="https://android.googlesource.com/" />
-                  
+
   <remote name="liq"
                   fetch="git://github.com/LiquidSmooth/"
                   review="review.liquidsmooth.org" />
-                  
+
   <remote name="moto"
                   fetch="git://github.com/liquid-moto/" />
-                 
+
   <remote name="gummy"
                   fetch="git://github.com/teamgummy" />
-                  
+
   <remote name="gh"
                   fetch="git://github.com/" />
-                 
+
   <remote name="cm9"
                   fetch="git://github.com/CM9-D2G/" />
-                 
+
   <remote name="cm"
                   fetch="git://github.com/CyanogenMod/" />
-                  
+
   <remote name="mm"
                   fetch="git://github.com/MotoMagic/" />
-                  
+
   <default revision="refs/tags/android-4.0.4_r2.1"
                    remote="aosp"
-                   sync-j="4" />
-                   
-  <project path="build" name="android_build" remote="liq" revision="ics">
+                   sync-j="2" />
+
+  <project path="build" name="android_build" remote="moto" revision="ics-dev">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -161,9 +161,9 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="ics" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="ics" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="ics" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="ics" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="moto" revision="ics" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="moto" revision="ics-dev" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
@@ -171,7 +171,7 @@
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -192,29 +192,29 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="ics" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="ics" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="moto" revision="ics" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="ics" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="ics" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="ics" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="moto" revision="ics" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="moto" revision="master" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="ics" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="liq" revision="ics" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="liq" revision="ics" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="moto" revision="master" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="moto" revision="master" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm9" revision="ics" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" revision="ics" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="moto" revision="master" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="ics" />
@@ -238,7 +238,7 @@
   <project path="system/media" name="android_system_media" remote="cm" revision="ics" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="moto" revision="ics" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="moto" revision="ics-dev" />
   <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="moto" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="cm" revision="ics" />
@@ -248,17 +248,17 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="ics" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="ics" />
- 
+
   <!--changes -->
-  <project path="device/motorola/common" name="android_device_moto_hijack" remote="moto" revision="master" />
+  <project path="device/motorola/hijack" name="android_device_moto_hijack" remote="moto" revision="master" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="cm9" revision="ics" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="gummy" revision="ics" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm9" revision="ics" />
-  <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="master" />
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics" />
+  <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="moto" revision="ics-dev" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics-dev" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="moto" revision="ics" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="moto" revision="ics" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="cm9" />
- 
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="moto" revision="master" />
+
 </manifest>
