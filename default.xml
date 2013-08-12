@@ -196,12 +196,12 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="moto" revision="master" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="moto" revision="ics" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="ics" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="moto" revision="master" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="moto" revision="master" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="moto" revision="ics" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="moto" revision="ics" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm9" revision="ics" />
@@ -232,7 +232,7 @@
   <project path="system/netd" name="android_system_netd" remote="cm" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="moto" revision="ics-dev" />
-  <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="moto" revision="master" />
+  <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="moto" revision="ics" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="cm" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="cm" revision="ics" />
