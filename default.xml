@@ -3,10 +3,6 @@
   <remote name="aosp"
                   fetch="https://android.googlesource.com/" />
                   
-  <remote name="liq"
-                  fetch="git://github.com/LiquidSmooth/"
-                  review="review.liquidsmooth.org" />
-                  
   <remote name="moto"
                   fetch="git://github.com/liquid-moto/" />
                  
@@ -21,9 +17,6 @@
                  
   <remote name="cm"
                   fetch="git://github.com/CyanogenMod/" />
-                  
-  <remote name="mm"
-                  fetch="git://github.com/MotoMagic/" />
                   
   <default revision="refs/tags/android-4.0.4_r2.1"
                    remote="aosp"
