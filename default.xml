@@ -3,10 +3,6 @@
   <remote name="aosp"
                   fetch="https://android.googlesource.com/" />
 
-  <remote name="liq"
-                  fetch="git://github.com/LiquidSmooth/"
-                  review="review.liquidsmooth.org" />
-
   <remote name="moto"
                   fetch="git://github.com/liquid-moto/" />
 
@@ -21,9 +17,6 @@
 
   <remote name="cm"
                   fetch="git://github.com/CyanogenMod/" />
-
-  <remote name="mm"
-                  fetch="git://github.com/MotoMagic/" />
 
   <default revision="refs/tags/android-4.0.4_r2.1"
                    remote="aosp"
@@ -250,7 +243,7 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="ics" />
 
   <!--changes -->
-  <project path="device/motorola/hijack" name="android_device_moto_hijack" remote="moto" revision="master" />
+  <project path="device/motorola/hijack" name="android_device_moto_hijack" remote="moto" revision="ics-dev" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="cm9" revision="ics" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="ics" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="gummy" revision="ics" />
@@ -259,6 +252,6 @@
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="moto" revision="ics-dev" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="moto" revision="ics" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="moto" revision="ics" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="moto" revision="master" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="moto" revision="ics-dev" />
 
 </manifest>
