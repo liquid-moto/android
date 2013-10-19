@@ -6,21 +6,21 @@
   <remote name="moto"
                   fetch="git://github.com/liquid-moto/" />
 
+  <remote name="cm"
+                  fetch="git://github.com/CyanogenMod/" />
+
+  <remote name="cm9"
+                  fetch="git://github.com/CM9-D2G/" />
+  
   <remote name="gummy"
                   fetch="git://github.com/teamgummy" />
 
   <remote name="gh"
                   fetch="git://github.com/" />
 
-  <remote name="cm9"
-                  fetch="git://github.com/CM9-D2G/" />
-
-  <remote name="cm"
-                  fetch="git://github.com/CyanogenMod/" />
-
   <default revision="refs/tags/android-4.0.4_r2.1"
                    remote="aosp"
-                   sync-j="2" />
+                   sync-j="4" />
 
   <project path="build" name="android_build" remote="moto" revision="ics-dev">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -159,12 +159,12 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="moto" revision="ics-dev" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="moto" revision="ics" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="ics" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -184,19 +184,22 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="ics" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="ics" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="moto" revision="ics" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="ics" />
+    <project path="packages/apps/Calculator" name="Xlythe/android_packages_apps_Calculator" remote="gh" revision="ics" />
+    <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="moto" revision="ics" />
+    <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="moto" revision="ics" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="ics" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="ics" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="ics" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="moto" revision="ics" />
+    <project path="packages/apps/Email" name="android_packages_apps_Email" remote="moto" revision="ics" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/Focal" name="android_packages_apps_Focal" remote="cm" revision="cm-10.1" />
+    <project path="packages/apps/FileManager" name="mcrosson/android_packages_apps_CMFileManager" remote="gh" revision="ics" />
+    <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="gh" revision="master" />
+    <project path="external/focal" name="xplodwild/android_external_Focal" remote="gh" revision="master" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="moto" revision="ics" />
+    <project path="packages/apps/Music" name="android_packages_apps_Music" remote="moto" revision="ics" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="ics" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -207,7 +210,7 @@
   <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="cm9" revision="ics" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" revision="ics" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="moto" revision="ics" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="ics" />
