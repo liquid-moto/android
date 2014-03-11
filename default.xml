@@ -35,7 +35,7 @@
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
   <project path="bionic" name="Quarx2k/android_bionic" remote="gh" revision="cm-11.0" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="gh" revision="twrp2.7" />
+  <project path="bootable/recovery" name="xdarklight/Team-Win-Recovery-Project" remote="gh" revision="twrp2.7" />
   <project path="dalvik" name="android_dalvik" remote="ls" revision="kitkat" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
   <project path="development" name="android_development" remote="sr" revision="kk4.4" />
@@ -201,8 +201,8 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
+<!--  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" /> -->
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
@@ -409,7 +409,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-11.0" />
-  <project path="system/core" name="android_system_core" remote="ls" revision="kitkat" />
+  <project path="system/core" name="Quarx2k/android_system_core" remote="gh" revision="cm-11.0" />
   <project path="system/extras" name="android_system_extras" remote="ls" revision="kitkat" />
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-11.0" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" />
@@ -442,14 +442,12 @@
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" revision="2.6.32" /> -->
   <project path="shadow-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="AeroKernel" />
-  <project path="external/bootmenu" name="MotoDX-CM11/android_external_bootmenu" remote="gh" revision="kitkat" />
   <project path="device/moto/shadow" name="MotoDX-CM11/android_device_moto_shadow" remote="gh" revision="kitkat"  />
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" remote="gh" revision="kitkat"  />
   <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" remote="gh" revision="kitkat" />
 
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean" />
-
 <!--
+  <project path="external/bootmenu" name="MotoDX-CM11/android_external_bootmenu" remote="gh" revision="kitkat" />
   <project path="device/motorola/shadow" name="shadow-cm11.0" remote="mksy" revision="kitkat" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="mksy" revision="cm9" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="mksy" revision="cm9" />
@@ -457,6 +455,7 @@
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="mksy" revision="kitkat" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="mksy" revision="cm9" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="mksy" revision="kitkat" />
+  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean" />
 -->
 
 </manifest>
