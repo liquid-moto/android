@@ -243,7 +243,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-11.0" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="kitkat" />
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="gh" revision="cm-11.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ls" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -410,7 +410,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-11.0" />
-  <project path="system/core" name="android_system_core" remote="ls" revision="kitkat" />
+  <project path="system/core" name="Quarx2k/android_system_core" remote="gh" revision="cm-11.0" />
   <project path="system/extras" name="android_system_extras" remote="ls" revision="kitkat" />
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-11.0" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" />
