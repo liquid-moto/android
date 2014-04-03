@@ -27,7 +27,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" remote="ls" revision="kitkat">
+  <project path="build" name="liquid-moto/android_build" remote="gh" revision="kk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="liquid-moto/android" remote="gh" revision="kk" />
