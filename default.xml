@@ -30,10 +30,10 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="liquid-moto/android_build" remote="gh" revision="kk">
+  <project path="build" name="liquid-moto/android_build" remote="gh" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="liquid-moto/android" remote="gh" revision="kk" />
+  <project path="android" name="liquid-moto/android" remote="gh" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="art" name="android_art" remote="ls" revision="kitkat" />
   <project path="bionic" name="Quarx2k/android_bionic" remote="gh" revision="cm-11.0" />
