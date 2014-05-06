@@ -31,7 +31,7 @@ Repositories:
 
 Now enter the following to initialize the repository:
 
-    repo init -u git://github.com/liquid-moto/android.git -b kitkat
+    repo init -u git@github.com/liquid-moto/android.git -b kitkat
 
     repo sync
 
