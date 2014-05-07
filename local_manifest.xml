@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="lm" fetch="https://github.com/liquid-moto/" />
+
   <!-- LiquidSmooth removals -->
   <remove-project name="android_build" />
   <remove-project name="android" />
@@ -15,17 +17,19 @@
   <remove-project name="android_packages_apps_KernelTweaker" />
   <remove-project name="android_packages_apps_LiquidOTA" />
   <remove-project name="android_packages_apps_LiquidStats" />
+  <remove-project name="android_packages_services_Telephony" />
   <remove-project name="android_system_core" />
   <remove-project name="android_vendor_liquid" />
 
   <!-- Additions from Liquid-Moto -->
-  <project path="build" name="liquid-moto/android_build" remote="gh" revision="kitkat" >
+  <project path="build" name="android_build" remote="lm" revision="kitkat" >
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="liquid-moto/android" remote="gh" revision="kitkat" />
-  <project path="frameworks/base" name="liquid-moto/android_frameworks_base" remote="gh" revision="kitkat" />
-  <project path="frameworks/native" name="liquid-moto/android_frameworks_native" remote="gh" revision="kitkat" />
-  <project path="vendor/liquid" name="liquid-moto/android_vendor_liquid" remote="gh" revision="kitkat" />
+  <project path="android" name="android" remote="lm" revision="kitkat" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="lm" revision="kitkat" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="lm" revision="kitkat" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lm" revision="kitkat" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="lm" revision="kitkat" />
 
   <!-- Additions from Quarx2k, etc. -->
   <project path="bionic" name="Quarx2k/android_bionic" remote="gh" revision="cm-11.0" />
