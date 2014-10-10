@@ -11,6 +11,7 @@
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_frameworks_native" />
+  <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_libhardware_legacy" />
   <remove-project name="android_hardware_ti_omap3" />
   <remove-project name="android_hardware_ti_wlan" />
@@ -29,11 +30,12 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lm" revision="kitkat" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="lm" revision="kitkat" />
 
-  <!-- Additions from Quarx2k, etc. -->
+  <!-- Additions from Quarx2k, MotoDX-CM11, etc. -->
   <project path="bionic" name="Quarx2k/android_bionic" remote="gh" revision="cm-11.0" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-4.4" />
   <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="gh" revision="cm-11.0" />
+  <project path="frameworks/opt/telephony" name="MotoDX-CM11/android_frameworks_opt_telephony" remote="gh" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-11.0" />
@@ -41,6 +43,9 @@
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="gh" revision="jellybean"  />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="gh" revision="gingerbread"  />
   <project path="system/core" name="Quarx2k/android_system_core" remote="gh" revision="cm-11.0" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain.git"  remote="github" revision="linaro-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain.git" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
 
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" remote="gh" revision="2.6.32" /> -->
