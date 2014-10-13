@@ -27,19 +27,18 @@ Enter the following to download make executable the "repo" binary:
 
 
 Repositories:
----------------
+----------------------
 
 Now enter the following to initialize the repository:
 
     cd liquid
     repo init -u https://github.com/liquid-moto/android.git -b kitkat
-    mkdir .repo/local_manifests
-    cp .repo/manifests/local_manifest.xml .repo/local_manifests/local_manifest.xml
+    mv .repo/manifests/local_manifests .repo/
     repo sync
 
 
 Building the System
----------------
+----------------------
 
 Build LiquidSmooth with the following command
 
