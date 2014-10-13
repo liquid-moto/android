@@ -8,6 +8,7 @@
   <remove-project name="android" />
   <remove-project name="android_bionic" />
   <remove-project name="android_bootable_recovery" />
+  <remove-project name="android_external_libselinux" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_frameworks_native" />
@@ -16,7 +17,6 @@
   <remove-project name="android_packages_services_Telephony" />
   <remove-project name="android_system_core" />
   <remove-project name="android_vendor_liquid" />
-  <remove-project name="platform/external/libselinux" />
 
   <!-- Additions from Liquid-Moto -->
   <project path="build" name="android_build" remote="lm" revision="kitkat" >
