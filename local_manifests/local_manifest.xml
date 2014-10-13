@@ -42,8 +42,8 @@
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="gh" revision="gingerbread"  />
   <project path="system/core" name="Quarx2k/android_system_core" remote="gh" revision="cm-11.0" />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain.git"  remote="github" revision="linaro-4.8-arm-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain.git" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain.git"  remote="gh" revision="linaro-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain.git" remote="gh" revision="linaro-4.8-arm-linux-androideabi" />
 
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" remote="gh" revision="2.6.32" /> -->
