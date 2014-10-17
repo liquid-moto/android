@@ -24,6 +24,7 @@
   </project>
   <project path="android" name="android" remote="lm" revision="kitkat" />
   <project path="device/moto/shadow" name="android_device_moto_shadow" remote="lm" revision="kitkat" />
+  <project path="device/moto/shadow-common" name="android_device_moto_shadow-common" remote="lm" revision="kitkat" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lm" revision="kitkat3" />
   <project path="frameworks/native" name="android_frameworks_native" remote="lm" revision="cm-11.0" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lm" revision="kitkat" />
@@ -51,7 +52,6 @@
   <!-- Shadow parts -->
   <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" remote="gh" revision="2.6.32" /> -->
   <project path="shadow-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="AeroKernel" />
-  <project path="device/moto/shadow-common" name="MotoDX-CM11/android_device_moto_shadow-common" remote="gh" revision="kitkat" />
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" remote="gh" revision="kitkat" />
 
 </manifest>
