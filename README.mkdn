@@ -12,7 +12,6 @@ You will need to set up some directories in your build environment.
 To create them run:
 
     mkdir -p ~/liquid
-
     mkdir -p ~/bin 
 
 
@@ -22,7 +21,6 @@ Install the Repository
 Enter the following to download make executable the "repo" binary:
 
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
-
     chmod a+x ~/bin/repo
 
 
@@ -64,5 +62,5 @@ Use the following as options...
     
 Example:
 
-    ./build-liquid.sh -c3 -p -o3 -j18 hammerhead
+    ./build-liquid.sh -c1 -o3 -j4 shadow
 
