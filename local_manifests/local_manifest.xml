@@ -12,7 +12,6 @@
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_base" />
   <remove-project name="android_frameworks_native" />
-  <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_libhardware_legacy" />
   <remove-project name="android_packages_services_Telephony" />
   <remove-project name="android_system_core" />
@@ -37,7 +36,6 @@
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-4.4" />
   <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="gh" revision="cm-11.0" />
-  <project path="frameworks/opt/telephony" name="MotoDX-CM11/android_frameworks_opt_telephony" remote="gh" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-11.0" />
