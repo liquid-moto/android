@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="lm" fetch="https://github.com/liquid-moto/" />
+  <remote  name="lm" fetch="git://github.com/liquid-moto/" />
 
   <!-- LiquidSmooth removals -->
   <remove-project name="android_build" />
