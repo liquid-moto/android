@@ -48,8 +48,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="ArchiDroid/Toolchain.git" remote="gh" revision="linaro-4.8-arm-linux-androideabi" />
 
   <!-- Shadow parts -->
-  <!-- <project path="shadow-kernel" name="mksy/shadow-kernel" remote="gh" revision="2.6.32" /> -->
-  <project path="shadow-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="AeroKernel" />
+  <!-- <project path="shadow-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="AeroKernel" /> -->
+  <project path="shadow-kernel" name="MotoDX-CM11/shadow-kernel" remote="gh" revision="AeroKernel" />
   <project path="vendor/motorola" name="MotoDX-CM11/proprietary_vendor_motorola" remote="gh" revision="kitkat" />
 
 </manifest>
